@@ -95,7 +95,6 @@ python -m ipykernel install --user --name entorno_ml
 ---
 
 ## Windows Setup
-
 ### 1. Install Python 3.11 (via terminal)
 
 Using winget:
@@ -112,7 +111,13 @@ python --version
 
 ### 2. Create Virtual Environment
 
-```powershell
+switch terminal vs code:
+```Press: Ctrl + Shift + P
+Type: Terminal: Select Default Profile
+Select: Command Prompt (CMD)
+```
+
+```bash
 python -m venv .venv
 ```
 
@@ -126,14 +131,16 @@ CMD:
 ```
 
 PowerShell:
-
+```powershell
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
 ```powershell
 .venv\Scripts\Activate.ps1
 ```
 
 ### 4. Install Dependencies
 
-```powershell
+```bash
 pip install -r requirements.txt
 ```
 

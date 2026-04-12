@@ -122,6 +122,7 @@ CMD:
 
 ```bat
 .venv\Scripts\activate
+.entorno_ml\Scripts\activate.bat
 ```
 
 PowerShell:

@@ -1,19 +1,9 @@
-# Entornos virtuales
 .venv/
 venv/
 env/
-entorno_pandas/
-
-# Python
 __pycache__/
 *.pyc
 *.pyo
-
-# Jupyter
 .ipynb_checkpoints/
-
-# VS Code
 .vscode/
-
-# Sistema
 .DS_Store
